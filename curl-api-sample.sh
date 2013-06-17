@@ -40,7 +40,7 @@ echo
 
 echo
 echo "--------------- Get project summaries ---------------"
-curl "http://jslogger.com/manage/summaries.json?type=event&limit=10&page=0" -s\
+curl "http://jslogger.com/manage/summaries.json?type=event&limit=3&page=0" -s\
   --request GET \
   --header "Accept-Encoding: gzip,deflate,sdch" \
   --cookie cookies.txt --cookie-jar cookies.txt\

@@ -1,5 +1,5 @@
 #JSLogger API example with curl
----
+
 This is an example app for accessing the [JSLogger API][1] with [curl][2]
 [1]: http://jslogger.com/api
 [2]: http://curl.haxx.se/
@@ -9,11 +9,9 @@ First, you have to [create a JSLogger account][3], if you don't have one yet.
 
 Set the JSLogger credentials in the script file _curl-api-sample.sh_
 
-Make the script executable:
-    chmod +X curl-api-sample.sh
+Make the script executable: `chmod +X curl-api-sample.sh`
 
-Run the script:
-    ./curl-api-sample.sh
+Run the script: `./curl-api-sample.sh`
 
 ##Sample output
 
