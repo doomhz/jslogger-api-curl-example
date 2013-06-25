@@ -5,28 +5,13 @@ This is an example app for accessing the [JSLogger API][1] with [curl][2]
 ##Setup
 First, you have to [create a JSLogger account][3], if you don't have one yet.
 
-Set the JSLogger credentials in the script file _curl-api-sample.sh_
+Set the JSLogger secret toke from the Code page in the script file _curl-api-sample.sh_
 
 Make the script executable: `chmod +X curl-api-sample.sh`
 
 Run the script: `./curl-api-sample.sh`
 
 ##Sample output
-
-    --------------- Log in ---------------
-    {
-        "user": {
-            "_id": "51bdf318933693f077000006", 
-            "created": "2013-06-16T17:17:12.914Z", 
-            "domain": "jslogger.com", 
-            "email": "support@jslogger.com", 
-            "updated": "2013-06-16T17:17:12.914Z", 
-            "viewed_project_id": "51bdf319933693f077000007"
-        }
-    }
-
-    -----------------------------------
-
 
     --------------- Get user projects ---------------
     [
